@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url("https://s3u.tmimgcdn.com/u37752224/3d604321b87230b0b76e6462801d4e05.gif") repeat;
+    color: #000;
+    padding: 10px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 8px 0;
+}
+
+nav ul li {
+    margin-bottom: 4px;
+}
+
+nav ul li a {
+    color: #0000ee;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.box {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.box h2 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.box h3 {
+    font-size: 14px;
+    margin: 8px 0 6px;
+}
+
+.box p {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.box ul {
+    margin: 0 0 8px 18px;
+    line-height: 1.4;
+}
+
+.topic-card {
+    border: 1px solid #aaa;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.pill-link {
+    color: #0000ee;
+    text-decoration: underline;
+}
+
+code {
+    background: #eee;
+    padding: 2px 4px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    margin-top: 16px;
+    text-align: center;
+}

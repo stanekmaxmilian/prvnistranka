@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Operační systémy</title>
+    <link rel="stylesheet" href="../g/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Operační systémy</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Úvod</a></li>
+            <li><a href="../a/soubory.html">Soubory a adresáře</a></li>
+            <li><a href="./operacni-systemy.html">Operační systémy</a></li>
+            <li><a href="../c/aplikace.html">Aplikace</a></li>
+            <li><a href="../d/instalace.html">Instalace a licence</a></li>
+            <li><a href="../e/virtualizace.html">Virtualizace a cloud</a></li>
+            <li><a href="../f/zalohovani.html">Zálohování</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="box" id="operacni-systemy-uvod">
+        <h2>Operační systémy</h2>
+        <p>
+            Základním programovým vybavením počítačů (a jim podobných zařízení) jsou operační systémy (OS - Operation System). Jejich nejdůležitější funkcí je zajištění řízení hardware. To má na starosti jádro systému, které tvoří subsystémy pro správu procesoru, paměti, diskových médií a dalších zařízení.
+        </p>
+        <p>
+            Nezbytnou součástí operačních systémů je <strong>aplikační rozhraní</strong> (API - Application Programming Interface), které nabízí programátorům prostředky pro vývoj aplikací pro daný systém. Uživatelské rozhraní slouží k ovládání OS a k spouštění aplikací. Zatímco starší OS se ovládaly častěji prostřednictvím příkazového řádku (CLI - Command Line Interface), moderní systémy poskytují grafické uživatelské rozhraní (GUI - Graphic User Interface).
+        </p>
+    </section>
+
+    <section class="box" id="historie-os">
+        <h2>Historie a vývoj OS</h2>
+        <p>
+            Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém <strong>UNIX</strong>, který se od 70. let používal v sálových počítačích i minipočítačích. V 80. letech si konkurovaly systémy firmy Microsoft (MS DOS) a firmy Apple (Mac OS), která začala jako první používat grafické uživatelské rozhraní. To se stalo také základem MS Windows.
+        </p>
+        <p>
+            V současnosti získával stále větší popularitu volně šiřitelný systém <strong>Linux</strong>, pojmenovaný podle svého tvůrce Linusa Torvaldse. Zatímco operační systémy Windows dominují především na osobních počítačích, různé linuxové distribuce jsou velmi často instalovány na síťových serverech.
+        </p>
+    </section>
+
+    <section class="box" id="typy-os">
+        <h2>Typy operačních systémů</h2>
+        <p>Současné OS rozdělujeme nejčastěji podle typů zařízení, pro která jsou určeny:</p>
+        <ul>
+            <li><strong>Systémy pro síťové servery</strong> - MS Windows Server, Linux, Unix</li>
+            <li><strong>Systémy pro osobní počítače</strong> - MS Windows, Linux Ubuntu, OS X</li>
+            <li><strong>Systémy pro mobilní zařízení</strong> - Android, iOS, Windows Phone</li>
+            <li><strong>RTOS</strong> (Real-Time Operating System) - systémy reálného času pro "chytrá" zařízení, robotické kamery, měřící přístroje, řízení průmyslových procesů</li>
+        </ul>
+    </section>
+
+    <section class="box" id="ovladace-utility">
+        <h2>Ovladače, firmware a utility</h2>
+        
+        <h3 id="ovladace-zarizeni">Ovladače zařízení (device drivers)</h3>
+        <p>
+            Speciální programy, které zajišťují komunikaci OS s určitým technickým vybavením. Bez potřebného ovladače nemůže zařízení správně fungovat. Standardní ovladače pro běžná zařízení bývají součástí moderních OS. Instalaci zařízení ve Windows usnadňuje standard <strong>Plug and Play</strong> (PnP - "připoj a hrej"), který zajistí automatickou detekci nově připojeného hardware.
+        </p>
+
+        <h3 id="firmware">Firmware</h3>
+        <p>
+            Programové vybavení, které slouží pro řízení nějakého vestavěného systému (embedded system). Firmware řídí například kalkulačky, počítačové komponenty (pevný disk, router...), mobilní telefon, digitální fotoaparát atd. Základním firmwarem v počítači je <strong>BIOS</strong> (Basic Output-Input System), který zajišťuje především start počítače a umožňuje konfiguraci základní desky i připojeného hardware.
+        </p>
+
+        <h3 id="utility">Utility</h3>
+        <p>
+            Menší pomocné programy, které umožňují vykonávat servisní operace potřebné k fungování počítače. Patří k nim:
+        </p>
+        <ul>
+            <li>Komprimační programy</li>
+            <li>Diagnostické a testovací programy</li>
+            <li>Utility pro kontrolu a optimalizaci operačního systému</li>
+            <li>Konverzní (převodní) programy</li>
+        </ul>
+        <p>
+            Řada utilit je integrální součástí OS. Příkladem může být Správce úloh ve Windows (Task Manager), který umožňuje správu spuštěných programů a služeb. Dalšími užitečnými utilitami jsou nástroje pro defragmentaci (defrag) nebo kontrolu disku (chkdsk).
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <a href="https://www.sspu-opava.cz/cs/"target = "_blank">
+    <img src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="Logo školy">
+    </a>
+    <p>© 2025 Maxmilián Staněk - IT1</p>
+</footer>
+
+</body>
+</html>

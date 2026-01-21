@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtualizace a cloud</title>
+    <link rel="stylesheet" href="../g/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Virtualizace a cloud</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Úvod</a></li>
+            <li><a href="../a/soubory.html">Soubory a adresáře</a></li>
+            <li><a href="../b/operacni-systemy.html">Operační systémy</a></li>
+            <li><a href="../c/aplikace.html">Aplikace</a></li>
+            <li><a href="../d/instalace.html">Instalace a licence</a></li>
+            <li><a href="./virtualizace.html">Virtualizace a cloud</a></li>
+            <li><a href="../f/zalohovani.html">Zálohování</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="box" id="emulator">
+        <h2>Emulátor</h2>
+        <p>
+            Emulátor je program, který umožňuje běh počítačových programů na jiné platformě (architektuře, operačním systému), než pro kterou byly původně vytvořeny a kterou samy od sebe podporují.
+        </p>
+        <p>
+            Typickým příkladem emulátoru je program umožňující běh videoher známých z herních konzol na běžném PC pod MS Windows nebo Linuxem. Jiným příkladem může být emulátor <strong>DOSBox</strong>, který emuluje starý operační systém MS DOS v prostředí novějších Windows, případně i na zcela odlišných platformách (Linux).
+        </p>
+    </section>
+
+    <section class="box" id="virtualizace-uvod">
+        <h2>Virtualizace</h2>
+        <p>
+            Virtualizace označuje v informatice postupy a techniky, které umožňují v počítači přistupovat k dostupným zdrojům jiným způsobem, než jakým fyzicky existují. Virtualizaci je možné realizovat na různých úrovních - od celého počítače (tzv. virtuální stroj), po jeho jednotlivé hardwarové komponenty (např. virtuální procesory, virtuální paměť), až po konkrétní softwarové prostředí (virtualizace operačního systému).
+        </p>
+    </section>
+
+    <section class="box" id="virtualni-stroj">
+        <h2>Virtuální stroj</h2>
+        <p>
+            Virtuální stroj je speciální software, který dokáže simulovat skutečný počítač (včetně jeho procesoru, paměti, disku, přídavných karet) a umožňuje instalaci OS i dalších programů. Podmínkou virtualizace je výkonný počítač a potřebný software.
+        </p>
+
+        <h3>Příklady softwarů pro virtualizaci</h3>
+        <ul>
+            <li>Virtual PC (Microsoft)</li>
+            <li>VirtualBox (Oracle)</li>
+            <li>VMWare</li>
+        </ul>
+
+        <h3>Využití virtuálních strojů</h3>
+        <ul>
+            <li><strong>Bezpečnost</strong> - běh některých aplikací, aby tyto nemohly ohrozit hostitelský počítač a jeho operační systém</li>
+            <li><strong>Testování</strong> - testování nových aplikací</li>
+            <li><strong>Konsolidace serverů</strong> - dokonalejší využití hardware, oddělený běh síťových aplikací i vyšší bezpečnost dat</li>
+        </ul>
+    <section class="box" id="cloud-computing">
+        <h2>Cloud computing</h2>
+        <p>
+            Cloud computing je nový výpočetní model založený na poskytování <strong>služeb a programů uložených na internetových serverech</strong>, k nimž mohou uživatelé přistupovat pomocí klientských aplikací (nejčastěji webového prohlížeče) a používat je prakticky odkudkoliv. V případě placených služeb uživatelé neplatí za vlastní software, ale za jeho užití.
+        </p>
+    </section>
+
+    <section class="box" id="typy-cloudu">
+        <h2>Typy cloudů</h2>
+        
+        <h3>Veřejný cloud</h3>
+        <p>
+            Je určen pro velký nebo neomezený počet klientů. Příklady: Skype, Seznam, Google
+        </p>
+
+        <h3>Privátní cloud</h3>
+        <p>
+            Je k dispozici pro omezený počet zákazníků (např. zaměstnanci firmy).
+        </p>
+
+        <h3>Hybridní cloud</h3>
+        <p>
+            Kombinuje veřejný i privátní přístup, navenek však nabízí jednotné standardizované rozhraní.
+        </p>
+    </section>
+
+    <section class="box" id="priklady-sluzeb">
+        <h2>Příklady cloudových služeb</h2>
+        <ul>
+            <li><strong>Internetové vyhledávače</strong> - Google, Bing, Seznam</li>
+            <li><strong>Webmail servery</strong> - Gmail, Hotmail, Seznam</li>
+            <li><strong>Cloudová úložiště</strong> - OneDrive, Google Drive, iCloud, Dropbox, Ulož.to</li>
+            <li><strong>Uživatelské aplikace</strong> - Google Apps, Microsoft Office 365, Adobe Creative Cloud</li>
+            <li><strong>Systémy přístupné přes prohlížeče</strong> - eyeOS</li>
+        </ul>
+    </section>
+
+    <section class="box" id="modely-cloudu">
+        <h2>Distribuční modely cloudu</h2>
+
+        <h3 id="iaas">IaaS (Infrastructure as a Service)</h3>
+        <p>
+            Poskytovatel služeb nabízí klientům celou infrastrukturu, typicky virtuální stroje. Hlavní výhodou tohoto přístupu je, že se o veškeré problémy s hardwarem stará poskytovatel.
+        </p>
+        <p><strong>Příklady:</strong> Amazon EC2, Rackspace Cloud, Microsoft Azure</p>
+
+        <h3 id="paas">PaaS (Platform as a Service)</h3>
+        <p>
+            V tomto modelu jsou poskytovány kompletní prostředky pro podporu celého životního cyklu tvorby a distribuce webových aplikací. Toto řešení, vhodné pro vývojáře, zahrnuje různé prostředky pro vývoj aplikace (IDE, API), ale i pro její údržbu.
+        </p>
+        <p><strong>Příklady:</strong> Google App Engine, Force.com, Heroku</p>
+
+        <h3 id="saas">SaaS (Software as a Service)</h3>
+        <p>
+            Aplikace je licencována jako služba pronajímaná uživateli a přístupná odkudkoliv a kdykoliv.
+        </p>
+        <p><strong>Příklady:</strong> Google Apps, Microsoft Office 365, Cargopass</p>
+    </section>
+
+    <section class="box" id="vyhody-nevyhody">
+        <h2>Výhody a nevýhody cloudu</h2>
+        
+        <h3>Výhody</h3>
+        <ul>
+            <li>Není nutné udržovat SW a HW</li>
+            <li>Efektivní řízení, dostupnost dat</li>
+            <li>Jednoduché uživatelské rozhraní</li>
+            <li>Zvýšení zabezpečení dat</li>
+            <li>Škálovatelnost - možnost okamžitého zvýšení výkonu i paměti</li>
+            <li>Růst produktivity práce ve firmách</li>
+        </ul>
+
+        <h3>Nevýhody</h3>
+        <ul>
+            <li>Závislost na poskytovateli</li>
+            <li>Nutnost připojení k Internetu</li>
+            <li>Méně funkcí, horší stabilita</li>
+            <li>Možné zneužití dat</li>
+            <li>Náklady na migraci (přechod na novou platformu) - přeškolení, převod dat</li>
+            <li>Jiný právní řád poskytovatele a klienta</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <a href="https://www.sspu-opava.cz/cs/"target = "_blank">
+    <img src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="Logo školy">
+    </a>
+    <p>© 2025 Maxmilián Staněk - IT1</p>
+</footer>
+
+</body>
+</html>
